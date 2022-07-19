@@ -1,0 +1,15 @@
+
+
+• ADMIN
+username: admin
+password: 12345
+
+• USER
+username: janedoe
+password: @Janedoe11
+
+username: janeyney
+password: @User12345
+
+username: sampleuser
+password: @Sampleuser123
