@@ -50,7 +50,7 @@ if (isset($_SESSION["role"])) {
 						</div>
                     </div>
                     <div class="form-group mb-3">
-                        <button id="registerbtn" class="btn btn-success py-3 rounded-pill w-100 fw-bold text-uppercase">Register</button>
+                        <button id="registerbtn" class="btn btn-success py-3 rounded-pill w-100 fw-bold text-uppercase" disabled>Register</button>
                     </div>
                     <div class="form-group">
                         <h6 class="small fw-normal text-center text-dark">Already have an account? <a href="./index.php">Sign In</a> </h6>

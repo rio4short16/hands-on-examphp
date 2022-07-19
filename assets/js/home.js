@@ -243,12 +243,12 @@ $(document).ready(function () {
     });
   });
 
-  // $(
-  //   ".regdiv #fname, .regdiv #lname, .regdiv #email, .regdiv #user, .regdiv #pass, .regdiv #confirmpass"
-  // ).on("keyup", function (e) {
-  //   e.preventDefault();
-  //   enableRegisterButton();
-  // });
+  $(
+    ".regdiv #fname, .regdiv #lname, .regdiv #email, .regdiv #user, .regdiv #pass, .regdiv #confirmpass"
+  ).on("keyup", function (e) {
+    e.preventDefault();
+    enableRegisterButton();
+  });
 
   $(".logindiv #user, .logindiv #pass").on("keyup", function (e) {
     e.preventDefault();
@@ -263,18 +263,18 @@ $(document).ready(function () {
     }
   }
 
-  // function enableRegisterButton() {
-  //   if (
-  //     $("#lname").val() != "" &&
-  //     $("#fname").val() != "" &&
-  //     $("#email").val() != "" &&
-  //     $("#user").val() != "" &&
-  //     $("#pass").val() != "" &&
-  //     $("#confirmpass").val() != ""
-  //   ) {
-  //     $("#registerbtn").attr("disabled", false);
-  //   } else {
-  //     $("#registerbtn").attr("disabled", true);
-  //   }
-  // }
+  function enableRegisterButton() {
+    if (
+      $("#lname").val() != "" &&
+      $("#fname").val() != "" &&
+      $("#email").val() != "" &&
+      $("#user").val() != "" &&
+      $("#pass").val() != "" &&
+      $("#confirmpass").val() != ""
+    ) {
+      $("#registerbtn").attr("disabled", false);
+    } else {
+      $("#registerbtn").attr("disabled", true);
+    }
+  }
 });
